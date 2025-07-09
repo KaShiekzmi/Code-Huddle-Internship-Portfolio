@@ -1,0 +1,84 @@
+[
+    {
+        "type": "mcq",
+        "question": "What is 5 + 3?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "8"
+    },
+    {
+        "type": "mcq",
+        "question": "What is 10 - 4?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": "6"
+    },
+    {
+        "type": "mcq",
+        "question": "What is 3 × 4?",
+        "options": [
+            "7",
+            "12",
+            "9",
+            "10"
+        ],
+        "answer": "12"
+    },
+    {
+        "type": "mcq",
+        "question": "What is 12 ÷ 3?",
+        "options": [
+            "6",
+            "4",
+            "3",
+            "2"
+        ],
+        "answer": "4"
+    },
+    {
+        "type": "boolean",
+        "question": "Is 7 a prime number?",
+        "answer": "True"
+    },
+    {
+        "type": "short",
+        "question": "What is 9 + 1?",
+        "answer": "10"
+    },
+    {
+        "type": "paragraph",
+        "question": "How to add 2 numbers?",
+        "answer": null
+    },
+    {
+        "type": "image-mcq",
+        "question": "Which one is the Pakistan Flag?",
+        "imageOptions": [
+            {
+                "src": "img/pakistan.png",
+                "value": "Pakistan"
+            },
+            {
+                "src": "img/india.jpg",
+                "value": "India"
+            },
+            {
+                "src": "img/america.jpeg",
+                "value": "America"
+            },
+            {
+                "src": "img/turkey.png",
+                "value": "Turkey"
+            }
+        ],
+        "answer": "Pakistan"
+    }
+]

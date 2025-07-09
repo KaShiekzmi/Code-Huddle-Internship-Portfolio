@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App - Task July 08, 2025</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Quiz App - <span id="user-name"></span></h1>
+            <div class="progress-bar">
+                <div class="progress-bar-fill"></div>
+            </div>
+            <div class="question-box"></div>
+            <div class="buttons">
+                <button class="btn btn-prev">Previous</button>
+                <span class="progress-text" id="progress-text"></span>
+                <button class="btn btn-next">Next</button>
+            </div>
+            <div class="result-box hidden"></div>
+        </div>
+    </div>
+
+    <div class="name-popup-overlay" id="name-popup">
+        <div class="name-popup">
+            <h2>Welcome!</h2>
+            <p>Please enter your name to begin:</p>
+            <input type="text" id="username-input" placeholder="Your name" autocomplete="off" />
+            <button class="btn" id="start-btn">Start Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
