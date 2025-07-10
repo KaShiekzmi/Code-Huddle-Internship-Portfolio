@@ -4,7 +4,7 @@ const jobRoutes = require("./routes/JobRoute")
 const cors = require('cors')
 
 const PORT = 4000
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://frontend-job-board-app.vercel.app/" }));
 
 app.use(express.json())
 
