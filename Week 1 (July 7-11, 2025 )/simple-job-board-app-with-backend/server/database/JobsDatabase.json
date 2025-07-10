@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "TechPak Solutions",
+    "type": "Full-time",
+    "location": "Karachi, Sindh",
+    "description": "We are looking for a skilled and passionate Software Engineer to join our growing development team. The ideal candidate will have hands-on experience in designing, coding, testing, and deploying software applications using modern programming languages and frameworks. You will work closely with cross-functional teams including designers, analysts, and project managers to deliver high-quality software solutions that meet client and business needs. Familiarity with Agile methodologies, version control systems, and debugging tools is highly preferred. Strong problem-solving skills, attention to detail, and the ability to learn quickly are essential for success in this role. This is a full-time position based in Karachi.",
+    "expectedSalary": "PKR 120,000 - 150,000/month",
+    "experienceRequired": "2-4 years",
+    "skillsNeeded": [
+      "JavaScript",
+      "Python",
+      "React",
+      "SQL",
+      "Git"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Graphic Designer",
+    "company": "Creative Minds Pvt Ltd",
+    "type": "Part-time",
+    "location": "Lahore, Punjab",
+    "description": "We are seeking a creative and talented Graphic Designer to join our design team on a part-time basis. The role involves creating visually appealing and engaging graphics for both print and digital platforms including social media, websites, advertisements, and marketing materials. The ideal candidate must have a strong understanding of design principles, typography, and color theory. Proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign) is required. Attention to detail and the ability to meet deadlines in a fast-paced environment are key. Previous experience with branding, illustrations, and UI/UX design will be considered an asset. This position is based in Lahore.",
+    "expectedSalary": "PKR 25,000 - 40,000/month",
+    "experienceRequired": "1-3 years",
+    "skillsNeeded": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "InDesign",
+      "UI/UX",
+      "Branding"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Marketing Manager",
+    "company": "PakAds Agency",
+    "type": "Full-time",
+    "location": "Islamabad, Islamabad Capital Territory",
+    "description": "PakAds Agency is looking for an experienced and dynamic Marketing Manager to take charge of our marketing operations. In this role, you will develop and execute strategic marketing plans to build brand awareness, increase customer engagement, and drive lead generation. The candidate should have a strong grasp of current marketing tools and strategies and be able to lead integrated campaigns from concept to execution. Responsibilities include team management, performance tracking, market research, and overseeing digital marketing initiatives. Excellent communication and leadership skills are essential. Experience in the advertising industry will be a strong plus. This is a full-time opportunity based in Islamabad.",
+    "expectedSalary": "PKR 150,000 - 200,000/month",
+    "experienceRequired": "4-6 years",
+    "skillsNeeded": [
+      "Digital Marketing",
+      "SEO",
+      "Team Management",
+      "Market Research",
+      "Campaign Management"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Data Analyst",
+    "company": "InfoTech Systems",
+    "type": "Full-time",
+    "location": "Rawalpindi, Punjab",
+    "description": "We are looking for a detail-oriented Data Analyst to join our analytics team at InfoTech Systems. The ideal candidate will be responsible for collecting, processing, and analyzing large datasets to identify trends, patterns, and actionable insights. You will support decision-making by creating reports, dashboards, and visualizations. Strong knowledge of SQL, Excel, and data visualization tools like Power BI or Tableau is essential. Experience in statistical analysis, data cleaning, and predictive modeling is highly desirable. The role requires critical thinking, strong mathematical skills, and the ability to communicate findings clearly to stakeholders. This is a full-time position based in Rawalpindi.",
+    "expectedSalary": "PKR 100,000 - 130,000/month",
+    "experienceRequired": "2-5 years",
+    "skillsNeeded": [
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Tableau",
+      "Statistical Analysis"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Web Developer",
+    "company": "Digital Horizon",
+    "type": "Part-time",
+    "location": "Faisalabad, Punjab",
+    "description": "Digital Horizon is hiring a motivated and skilled Web Developer to design, develop, and maintain responsive and user-friendly websites for our diverse clientele. This remote role offers the flexibility to work from anywhere while collaborating with a team of designers, developers, and content creators. The ideal candidate should have a strong command of HTML, CSS, JavaScript, and front-end frameworks like React or Vue.js. Experience with backend technologies such as Node.js or PHP is a plus. Knowledge of version control (Git), SEO principles, and cross-browser compatibility is important. The position demands creativity, technical expertise, and the ability to work independently while meeting deadlines.",
+    "expectedSalary": "PKR 30,000 - 50,000/month",
+    "experienceRequired": "1-3 years",
+    "skillsNeeded": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Frontend Developer",
+    "company": "TechCorp",
+    "type": "Remote",
+    "location": "Remote",
+    "description": "Develop and maintain web applications using React and modern JavaScript frameworks. Collaborate with designers and backend developers to deliver high-quality user experiences.",
+    "expectedSalary": "PKR 80,000 - 100,000/month",
+    "experienceRequired": "2-3 years",
+    "skillsNeeded": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  }
+]
