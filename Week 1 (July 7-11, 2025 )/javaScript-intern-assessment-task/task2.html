@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial;
+            background: #f0f0f0;
+            padding: 20px;
+        }
+
+        #task-manager {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 2px gray;
+        }
+
+        #task-input {
+            width: 70%;
+            padding: 8px;
+            font-size: 14px;
+        }
+
+        #add-task {
+            padding: 9px 15px;
+            font-size: 14px;
+            margin-left: 5px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #add-task:hover {
+            background: #0056b3;
+        }
+
+        #task-list {
+            margin-top: 20px;
+            list-style: none;
+            padding: 0;
+        }
+
+        #task-list li {
+            padding: 8px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #task-list span {
+            flex: 1;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        #task-list span.done {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        #task-list button {
+            margin-left: 10px;
+            padding: 5px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        #task-stats {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="task-manager">
+        <input type="text" id="task-input" placeholder="Enter task">
+        <button id="add-task">Add</button>
+
+        <ul id="task-list"></ul>
+
+        <div id="task-stats">
+            <p>Total: <span id="total">0</span></p>
+            <p>Completed: <span id="done">0</span></p>
+        </div>
+    </div>
+
+    <script src="Task2.js"></script>
+</body>
+
+</html>
