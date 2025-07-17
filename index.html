@@ -303,14 +303,14 @@
                     <ul>
                         <li>Use React Router for navigation</li>
                         <li>Style using Tailwind CSS</li>
-                        <li>Load jobs from a local static JSON file (src/data/jobs.json)</li>
+                        <li>Use local static JSON file (src/data/jobs.json)</li>
                         <li>Avoid global state libraries (Redux, Zustand, etc.)</li>
                     </ul>
                     <h4>Bonus (If Time Permits):</h4>
                     <ul>
                         <li>Highlight the active filter button</li>
                         <li>Add a basic toast for success message after posting a job</li>
-                        <li>Make the layout responsive (mobile-friendly)</li>
+                        Curtis <li>Make the layout responsive (mobile-friendly)</li>
                     </ul>
                     <h4>Time Estimate:</h4>
                     <ul>
@@ -335,13 +335,13 @@
                     <h4>Enhancements:</h4>
                     <ul>
                         <li>Implemented a Node.js server using Express to manage job data</li>
-                        <li>Added functionality to persist job postings from the form to a JSON file</ memoir>
+                        <li>Added functionality to persist job postings from the form to a JSON file</li>
                         <li>Added delete functionality to remove jobs from the JSON file</li>
                         <li>Integrated frontend with backend API for dynamic job management</li>
                     </ul>
                     <h4>Requirements:</h4>
                     <ul>
-                        <li>RESTful API endpoints for CRUD operations (Create, Read, Update, Delete)</li>
+                        <li>RESTful Traditional API endpoints for CRUD operations (Create, Read, Update, Delete)</li>
                         <li>Proper error handling and validation</li>
                         <li>Persisted data in a JSON file as a simple database</li>
                     </ul>
@@ -396,6 +396,62 @@
                 <div class="task-links">
                     <a href="https://github.com/KaShiekzmi/Code-Huddle-Internship-Portfolio/tree/main/Week%201%20(July%207-11%2C%202025%20)/javaScript-intern-assessment-task"
                         target="_blank" class="btn">Code</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Week 2</h2>
+        <div class="task-list">
+            <div class="task">
+                <div class="task-title">Task 1 – NextBook - A Simple Book Review App</div>
+                <div class="task-details">
+                    <h4>Tech Stack:</h4>
+                    <ul>
+                        <li>Next.js</li>
+                        <li>NextAuth.js</li>
+                        <li>SWR or useEffect for client-side fetching</li>
+                    </ul>
+                    <h4>Core Features:</h4>
+                    <ul>
+                        <li>Set up a Next.js project using create-next-app</li>
+                        <li>Implemented static pages using SSG (Static Site Generation): Home page (/) with list of
+                            books (hardcoded data or mock JSON), About page (/about), Individual book detail pages
+                            (/books/[id]) using getStaticPaths + getStaticProps</li>
+                        <li>Created API route /api/books to return JSON of book data</li>
+                        <li>Updated home page to fetch books from API route using SSR (getServerSideProps)</li>
+                        <li>Set up NextAuth.js with GitHub
+                            or Google provider for login/logout</li>
+                        <li>Displayed user session on the home page</li>
+                        <li>Created a protected /profile page accessible only to logged-in users, showing session info
+                            (name, email, image)</li>
+                        <li>Implemented client-side fetching of book reviews using SWR or useEffect + fetch</li>
+                        <li>Added form to submit new book reviews</li>
+                        <li>Deployed on Vercel</li>
+                    </ul>
+                    <h4>Key Concepts Tested:</h4>
+                    <ul>
+                        <li>File-based routing</li>
+                        <li>Dynamic routes</li>
+                        <li>getStaticProps, getStaticPaths</li>
+                        <li>API routes</li>
+                        <li>Server-Side Rendering (getServerSideProps)</li>
+                        <li>NextAuth.js (providers, sessions)</li>
+                        <li>Middleware or session-based auth protection</li>
+                        <li>Client-side data fetching</li>
+                        <li>Form handling</li>
+                        <li>Deployment</li>
+                    </ul>
+                    <h4>Deliverables:</h4>
+                    <ul>
+                        <li>GitHub repository with code</li>
+                        <li>Live app deployed on Vercel</li>
+                        <li>README with tech used, steps to run locally, and known issues/future improvements</li>
+                    </ul>
+                </div>
+                <div class="task-links">
+                    <a href="https://github.com/KaShiekzmi/Code-Huddle-Internship-Portfolio/tree/main/week-2-july-14-18-2025/nextbook-a-simple-book-review-app"
+                        target="_blank" class="btn">Code</a>
+                    <a href="https://nextbook-codehuddle.vercel.app/" target="_blank" class="btn">Live</a>
                 </div>
             </div>
         </div>
