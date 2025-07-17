@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "bookId": "1",
+    "userId": "user1",
+    "userName": "Alice Johnson",
+    "comment": "A beautifully written classic with rich symbolism and compelling characters. Fitzgerald's prose is absolutely stunning.",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "bookId": "1",
+    "userId": "user2",
+    "userName": "Bob Smith",
+    "comment": "Fitzgerald's masterpiece captures the essence of the American Dream perfectly. A must-read for everyone.",
+    "createdAt": "2024-01-20T14:45:00Z"
+  },
+  {
+    "id": "3",
+    "bookId": "2",
+    "userId": "user3",
+    "userName": "Carol Davis",
+    "comment": "A powerful and moving story that remains relevant today. Harper Lee's writing is both beautiful and heartbreaking.",
+    "createdAt": "2024-01-18T09:15:00Z"
+  },
+  {
+    "id": "4",
+    "bookId": "3",
+    "userId": "user4",
+    "userName": "David Wilson",
+    "comment": "Orwell's vision of the future is chilling and thought-provoking. More relevant now than ever before.",
+    "createdAt": "2024-01-22T16:20:00Z"
+  },
+  {
+    "id": "5",
+    "bookId": "4",
+    "userId": "user5",
+    "userName": "Emma Thompson",
+    "comment": "Jane Austen's wit and social commentary shine through in this delightful romance. Elizabeth Bennet is an amazing character.",
+    "createdAt": "2024-01-25T11:10:00Z"
+  }
+]
