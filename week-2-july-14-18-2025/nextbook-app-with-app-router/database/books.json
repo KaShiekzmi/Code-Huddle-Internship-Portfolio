@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A classic American novel set in the Jazz Age, exploring themes of wealth, love, and the American Dream through the eyes of Nick Carraway as he observes his mysterious neighbor Jay Gatsby.",
+    "coverImage": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Classic Fiction",
+    "publishedYear": 1925,
+    "isbn": "978-0-7432-7356-5"
+  },
+  {
+    "id": "2",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A powerful story of racial injustice and childhood innocence in the American South, told through the eyes of Scout Finch as her father defends a black man falsely accused of rape.",
+    "coverImage": "https://images.pexels.com/photos/1826620/pexels-photo-1826620.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Classic Fiction",
+    "publishedYear": 1960,
+    "isbn": "978-0-06-112008-4"
+  },
+  {
+    "id": "3",
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel exploring themes of totalitarianism, surveillance, and individual freedom in a world where Big Brother watches everything and truth is constantly rewritten.",
+    "coverImage": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Dystopian Fiction",
+    "publishedYear": 1949,
+    "isbn": "978-0-452-28423-4"
+  },
+  {
+    "id": "4",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "A timeless romance novel exploring love, class, and social expectations in 19th century England through the relationship between Elizabeth Bennet and Mr. Darcy.",
+    "coverImage": "https://images.pexels.com/photos/1161548/pexels-photo-1161548.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Romance",
+    "publishedYear": 1813,
+    "isbn": "978-0-14-143951-8"
+  },
+  {
+    "id": "5",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "description": "A coming-of-age story following Holden Caulfield through his experiences in New York City as he struggles with depression, alienation, and the phoniness of adult society.",
+    "coverImage": "https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Coming of Age",
+    "publishedYear": 1951,
+    "isbn": "978-0-316-76948-0"
+  },
+  {
+    "id": "6",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "description": "An epic fantasy adventure following the quest to destroy the One Ring and defeat the Dark Lord Sauron, featuring hobbits, wizards, and the fate of Middle-earth.",
+    "coverImage": "https://images.pexels.com/photos/2177482/pexels-photo-2177482.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Fantasy",
+    "publishedYear": 1954,
+    "isbn": "978-0-544-00341-5"
+  },
+  {
+    "id": "7",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "description": "The magical story of a young wizard discovering his true identity and attending Hogwarts School of Witchcraft and Wizardry, where he learns about friendship, courage, and his destiny.",
+    "coverImage": "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Fantasy",
+    "publishedYear": 1997,
+    "isbn": "978-0-439-70818-8"
+  },
+  {
+    "id": "8",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "description": "A delightful adventure story about Bilbo Baggins, a hobbit who embarks on an unexpected journey with dwarves to reclaim their homeland from the dragon Smaug.",
+    "coverImage": "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "genre": "Fantasy",
+    "publishedYear": 1937,
+    "isbn": "978-0-547-92822-7"
+  }
+]
