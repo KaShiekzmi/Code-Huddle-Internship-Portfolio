@@ -3,6 +3,7 @@ import BookGrid from './BookGrid';
 
 async function getBooks() {
   try {
+    console.log('Fetching books from API...', process.env.NEXT_PUBLIC_BASE_URL);
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/books`);
     if (!res.ok) {
       console.error(`Failed to fetch books: ${res.status} ${res.statusText}`);
