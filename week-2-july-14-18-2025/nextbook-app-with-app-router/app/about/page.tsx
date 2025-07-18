@@ -25,7 +25,7 @@ export default function About() {
                             Whether you&apos;re looking for the latest bestseller, a classic novel, or a hidden gem in your favorite genre, NextBook provides a clean, intuitive platform to explore, review, and discuss books with fellow readers.
                         </p>
                         <p className="text-lg text-gray-600">
-                            Built with modern web technologies including Next.js, TypeScript, and Tailwind CSS, NextBook delivers a fast, responsive, and beautiful reading experience across all devices.
+                            Built with modern web technologies including Next js, Next Auth, TypeScript, and Tailwind CSS, NextBook delivers a fast, responsive, and beautiful reading experience across all devices.
                         </p>
                     </div>
 
