@@ -34,7 +34,7 @@ const Profile = () => {
             </p>
             <div className="flex items-center justify-center space-x-2 text-orange-100">
               <Calendar className="h-4 w-4" />
-              <span>Member since January 2025</span>
+              <span>Member since January, 2025</span>
             </div>
           </div>
         </div>
