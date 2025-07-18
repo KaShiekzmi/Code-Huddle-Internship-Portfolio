@@ -3,7 +3,7 @@ import BookGrid from './BookGrid';
 
 async function getBooks() {
   try {
-    const res = await fetch(`http://localhost:3000/api/books`, { cache: 'no-store' });
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/books`);
     if (!res.ok) {
       console.error(`Failed to fetch books: ${res.status} ${res.statusText}`);
       return [];

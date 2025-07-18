@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Book } from '@/lib/data';
+import Image from 'next/image';
+import { Book } from '@/types/book';
 
 interface BookCardProps {
   book: Book;
@@ -10,10 +11,12 @@ const BookCard = ({ book }: BookCardProps) => {
   return (
     <div className="bg-white rounded-xl shadow-soft hover-lift transition-all duration-300 overflow-hidden group border border-gray-100">
       <div className="h-60 relative overflow-hidden">
-        <img
+        <Image
           src={book.coverImage}
           alt={book.title}
-          className="w-full h-full hover:scale-105  duration-500"
+          fill
+          className="object-cover hover:scale-105 duration-500"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
 

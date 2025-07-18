@@ -1,8 +1,9 @@
 import { mockBooks } from '@/lib/data';
+import { NextResponse } from 'next/server';
 
 export async function GET() {
     if (mockBooks.length === 0) {
-        return new Response(JSON.stringify({ error: 'No books found' }), {
+        return NextResponse.json({ error: 'No books found' }, {
             status: 404,
             headers: {
                 'Content-Type': 'application/json',
@@ -10,7 +11,7 @@ export async function GET() {
         });
     }
 
-    return new Response(JSON.stringify({ books: mockBooks }), {
+    return NextResponse.json({ books: mockBooks }, {
         status: 200,
         headers: {
             'Content-Type': 'application/json',

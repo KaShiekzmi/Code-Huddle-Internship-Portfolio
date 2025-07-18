@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { Menu, X, Book, LogIn, LogOut } from 'lucide-react';
 
@@ -54,11 +55,15 @@ const Header = () => {
             {isAuthenticated ? (
               <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-2">
-                  <img
-                    src={session?.user?.image || ''}
-                    alt={session?.user?.name || ''}
-                    className="w-8 h-8 rounded-full"
-                  />
+                  <div className="w-8 h-8 rounded-full relative overflow-hidden">
+                    <Image
+                      src={session?.user?.image || '/default-avatar.png'}
+                      alt={session?.user?.name || 'User avatar'}
+                      fill
+                      className="object-cover"
+                      sizes="32px"
+                    />
+                  </div>
                   <span className="text-sm text-gray-700">
                     {session?.user?.name}
                   </span>
@@ -123,11 +128,15 @@ const Header = () => {
                 {isAuthenticated ? (
                   <div className="space-y-2">
                     <div className="flex items-center space-x-3 px-3 py-2">
-                      <img
-                        src={session?.user?.image || ''}
-                        alt={session?.user?.name || ''}
-                        className="w-8 h-8 rounded-full"
-                      />
+                      <div className="w-8 h-8 rounded-full relative overflow-hidden">
+                        <Image
+                          src={session?.user?.image || '/default-avatar.png'}
+                          alt={session?.user?.name || 'User avatar'}
+                          fill
+                          className="object-cover"
+                          sizes="32px"
+                        />
+                      </div>
                       <span className="text-base text-gray-700">
                         {session?.user?.name}
                       </span>

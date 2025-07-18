@@ -3,10 +3,10 @@
 import { useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { Send } from 'lucide-react';
-
+import { Review } from '@/types/review';
 interface ReviewFormProps {
   bookId: string;
-  onReviewSubmit: (review: any) => void;
+  onReviewSubmit: (review: Review) => void;
 }
 
 const ReviewForm = ({ bookId, onReviewSubmit }: ReviewFormProps) => {
@@ -25,7 +25,7 @@ const ReviewForm = ({ bookId, onReviewSubmit }: ReviewFormProps) => {
     return true;
   };
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!validateForm()) return;
@@ -33,7 +33,7 @@ const ReviewForm = ({ bookId, onReviewSubmit }: ReviewFormProps) => {
 
     setIsSubmitting(true);
 
-    const newReview = {
+    const newReview: Review = {
       id: Date.now().toString(),
       bookId,
       userId: session.user?.email || '',

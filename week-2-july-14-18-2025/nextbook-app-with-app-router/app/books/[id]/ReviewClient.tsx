@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import ReviewForm from './ReviewForm';
 import ReviewCard from './ReviewCard';
-import { Review } from '@/lib/data';
+import { Review } from '@/types/review';
 
 export default function ReviewClient({
     bookId,

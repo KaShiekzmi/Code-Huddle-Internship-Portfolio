@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Book } from 'lucide-react';
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
               <span className="text-lg font-semibold text-gray-900">NextBook</span>
             </div>
             <p className="text-gray-600 text-sm">
-              A simple book review application for loved one's.
+              A simple book review application for loved one&apos;s.
             </p>
           </div>
 
@@ -21,19 +22,19 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-gray-600 hover:text-orange-600 text-sm transition-colors duration-200">
+                <Link href="/" className="text-gray-600 hover:text-orange-600 text-sm transition-colors duration-200">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-600 hover:text-orange-600 text-sm transition-colors duration-200">
+                <Link href="/about" className="text-gray-600 hover:text-orange-600 text-sm transition-colors duration-200">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/profile" className="text-gray-600 hover:text-orange-600 text-sm transition-colors duration-200">
+                <Link href="/profile" className="text-gray-600 hover:text-orange-600 text-sm transition-colors duration-200">
                   Profile
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

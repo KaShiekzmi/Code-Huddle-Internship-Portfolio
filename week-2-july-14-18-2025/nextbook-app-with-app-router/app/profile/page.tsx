@@ -1,6 +1,7 @@
 'use client';
 
 import { useSession } from 'next-auth/react';
+import Image from 'next/image';
 import { User, Mail, Calendar } from 'lucide-react';
 
 const Profile = () => {
@@ -20,11 +21,15 @@ const Profile = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="text-center">
                         <div className="mb-6">
-                            <img
-                                src={session.user?.image || ''}
-                                alt={session.user?.name || ''}
-                                className="w-24 h-24 rounded-full mx-auto border-4 border-white shadow-lg"
-                            />
+                            <div className="w-24 h-24 rounded-full mx-auto border-4 border-white shadow-lg relative overflow-hidden">
+                                <Image
+                                    src={session.user?.image || '/default-avatar.png'}
+                                    alt={session.user?.name || 'User avatar'}
+                                    fill
+                                    className="object-cover"
+                                    sizes="96px"
+                                />
+                            </div>
                         </div>
                         <h1 className="text-3xl md:text-4xl font-bold mb-2">
                             {session.user?.name}

@@ -1,4 +1,5 @@
 import { Calendar, User, Book as Hash } from 'lucide-react';
+import Image from 'next/image';
 import { mockBooks, mockReviews } from '@/lib/data';
 import ReviewClient from './ReviewClient';
 
@@ -8,7 +9,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function BookDetailPage({ params }: { params: { id: string } }) {
+export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const awaitedParams = await params;
   const bookId = awaitedParams.id;
   const book = mockBooks.find((b) => b.id === bookId);
@@ -19,7 +20,7 @@ export default async function BookDetailPage({ params }: { params: { id: string 
       <div className="min-h-screen flex items-center justify-center text-center text-gray-600">
         <div>
           <h1 className="text-3xl font-bold mb-2">Book Not Found</h1>
-          <p>We couldn't find the book you're looking for.</p>
+          <p>We couldn&apos;t find the book you&apos;re looking for.</p>
         </div>
       </div>
     );
@@ -33,7 +34,13 @@ export default async function BookDetailPage({ params }: { params: { id: string 
           <div className="lg:col-span-1">
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
               <div className="h-80 relative">
-                <img src={book.coverImage} alt={book.title} className="w-full h-full" />
+                <Image
+                  src={book.coverImage}
+                  alt={book.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
+                />
               </div>
               <div className="p-6">
                 <span className="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">

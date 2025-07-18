@@ -19,10 +19,10 @@ export default function About() {
                     <div>
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
                         <p className="text-lg text-gray-600 mb-6">
-                            NextBook was created with a simple mission: to make discovering and sharing great books easier and more enjoyable. We believe that reading is one of life's greatest pleasures, and we want to help you find your next favorite book.
+                            NextBook was created with a simple mission: to make discovering and sharing great books easier and more enjoyable. We believe that reading is one of life&apos;s greatest pleasures, and we want to help you find your next favorite book.
                         </p>
                         <p className="text-lg text-gray-600 mb-6">
-                            Whether you're looking for the latest bestseller, a classic novel, or a hidden gem in your favorite genre, NextBook provides a clean, intuitive platform to explore, review, and discuss books with fellow readers.
+                            Whether you&apos;re looking for the latest bestseller, a classic novel, or a hidden gem in your favorite genre, NextBook provides a clean, intuitive platform to explore, review, and discuss books with fellow readers.
                         </p>
                         <p className="text-lg text-gray-600">
                             Built with modern web technologies including Next.js, TypeScript, and Tailwind CSS, NextBook delivers a fast, responsive, and beautiful reading experience across all devices.

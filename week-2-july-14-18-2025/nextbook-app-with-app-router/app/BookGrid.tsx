@@ -1,6 +1,5 @@
-import { Book } from '@/lib/data';
 import BookCard from './BookCard';
-
+import { Book } from '@/types/book';
 interface BookGridProps {
   books: Book[];
 }

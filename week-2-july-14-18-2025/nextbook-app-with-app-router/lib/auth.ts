@@ -10,10 +10,10 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   callbacks: {
-    async session({ session, token }) {
+    async session({ session, token: _token }) {
       return session;
     },
-    async jwt({ token, account }) {
+    async jwt({ token, account: _account }) {
       return token;
     },
   },
